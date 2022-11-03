@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#04012D"
+    tools:context=".Mascotas">
+
+    <Button
+        android:id="@+id/btnMascotas1"
+        android:layout_width="98dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#55ffe2"
+        android:text="Perros"
+        android:textColor="#04012D"
+        app:layout_constraintBottom_toTopOf="@+id/btnMascotas2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnMascotas3"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#55ffe2"
+        android:text="Aves"
+        android:textColor="#04012D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnMascotas2"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#55ffe2"
+        android:text="Gatos"
+        android:textColor="#04012D"
+        app:layout_constraintBottom_toTopOf="@+id/btnMascotas3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imgLogo3"
+        android:layout_width="267dp"
+        android:layout_height="216dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMascotas1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoadoptapp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtmascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que Buscas?"
+        app:layout_constraintBottom_toTopOf="@+id/btnMascotas1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
